@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.main-cont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(jonatan-pie-3l3RwQdHRHg-unsplash.jpg);
+}
+.clock{
+    height: 30%;
+    width: 20%;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.btn-cont{
+    display: flex;
+    justify-self:center;
+    align-items: center;
+}
